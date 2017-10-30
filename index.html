@@ -2,37 +2,77 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Basic-Portfolio</title>
+    <meta charset="UTF-8">
+    <!-- charset does not get an end command -->
+    <title>Basic-Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
 </head>
 
-<body>
-    <header>
-        <h1>Teddy Bermes</h1>
-        <nav>
-        <a href="#">About</a>
-        <a href="images/contact.html">Contact</a>
-        <a href="images/portfolio.html">Portfolio</a>
-        </nav>
-    </header>
-    
-    
-    <h2>About Me</h2>
-    
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero temporibus possimus, porro doloremque eius et nulla odio ipsum. Dolore, cum! Iste in quod illo fugit a hic corporis, et commodi.</p>
-    
-    <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAxaAAAAJDYwODRlMzkzLTRiYTktNDIwNy1hM2NiLWMxZmE3NTcxMzQ3Mg.jpg" alt="Me">
-    
-    <h3>Connect With Me</h3>
-        <dl>
-        <dt><a href="www.linkedin.com"><img src="http://psiint.com/wp-content/uploads/2017/03/linkedin-logo-copy.png"></a></dt>
-        <dt><a href="www.facebook.com"><img src="https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png"></a></dt>
-        <dt><a href="www.github.com"><img src="https://imageog.flaticon.com/icons/png/512/38/38401.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF"></a></dt>
-        </dl>
-        
-    <footer>
-        <p>Copyright © 2017 - Teddy Bermes</p>
-    </footer>
-    
-</body>
+
+<header class="header">
+
+    <div class="headercontent">
+
+        <div class="namebox">
+            <p>Teddy Bermes</p>
+        </div>
+
+        <div class="navbox">
+            <a class="icon" href="#">About</a> |
+            <a class="icon" href="images/contact.html">Contact</a> |
+            <a class="icon" href="images/portfolio.html">Portfolio</a>
+        </div>
+
+    </div>
+
+</header>
+
+
+<div class="content">
+
+    <div class="left">
+        <div class="aboutme">
+            <h1>About Me</h1>
+
+            <hr>
+
+            <img class="me" src="http://via.placeholder.com/150x150">
+
+            <p class="body1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse aliquam ipsa quidem mollitia provident dolore illum id consequuntur explicabo eligendi odit obcaecati corrupti nulla inventore labore, similique vero quasi quaerat! Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit. Esse aliquam ipsa quidem mollitia provident dolore illum id consequuntur explicabo eligendi odit obcaecati corrupti nulla inventore labore, similique vero quasi quaerat! Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit. Esse aliquam ipsa quidem mollitia provident dolore illum id consequuntur explicabo eligendi odit obcaecati corrupti nulla inventore labore, similique vero quasi quaerat! Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit.</p>
+
+        </div>
+    </div>
+
+    <div class="right">
+        <div class="connect">
+
+            <h2>Connect With Me</h2>
+
+            <hr>
+        </div>
+
+        <div class="linkedin">
+            <a href="www.linkedin.com"><img src="assets/images/linkedin.png" width= "50px" height="50px"></a>
+        </div>
+
+        <div class="stackoverflow">
+            <a href="www.stackoverflow.com"><img src="assets/images/stackoverflow.png" width= "50px" height="50px"></a>
+        </div>
+
+        <div class="github">
+            <a href="www.github.com"><img src="assets/images/github.png" width= "50px" height="50px"></a>
+        </div>
+
+
+    </div>
+</div>
+
+
+
 </html>

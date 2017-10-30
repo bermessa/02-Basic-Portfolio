@@ -1,0 +1,171 @@
+.header {
+ background-color: white;
+ width: 100%;
+ height: 110px;
+ margin-bottom: 35px;
+ border-bottom-style: solid;
+ border-bottom-color: lightgrey;
+ border-bottom-width: 2px;
+}
+
+.headercontent {
+ background-color: white;
+ width: 960px;
+ margin: 0 auto;
+ position: relative;
+}
+
+.namebox {
+ background-color: #4aaaa5;
+ color: white;
+ font-family: 'Georgia', Times, Times New Roman, serif;
+ text-align: center;
+ width: 240px;
+ height: 30px;
+ font-size: 24px;
+ font-weight: bold;
+ padding: 40px;
+}
+
+.navbox {
+ font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+ top: 20px;
+ right: 150px;
+ position: absolute;
+ bottom: 40px;
+ right: -10px;
+ top: 50px;
+}
+
+.icon:link {
+ margin: 20px;
+ color: #777777;
+}
+
+
+body {
+ background-image: url("../images/concrete-texture.png");
+
+}
+
+.content {
+ width: 960px;
+ margin: 0 auto;
+}
+
+.left {
+ background-color: white;
+ border: 2px;
+ border-style: solid;
+ border-color: lightgrey;
+ width: 650px;
+ float: left;
+}
+
+.aboutme,
+.port {
+ margin: 40px;
+
+}
+
+h1,
+h4 {
+ color: #4aaaa5;
+ font-size: 32px;
+ font-weight: bold;
+ margin-bottom: 20px;
+}
+
+.body1 {
+ font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+ line-height: 1.8;
+ margin-top: 30px;
+ color: #777777;
+}
+
+.me {
+ float: left;
+ margin: 30px 30px 30px 0px;
+
+}
+
+.right {
+ background-color: white;
+ border: 2px;
+ border-style: solid;
+ border-color: lightgrey;
+ width: 270px;
+ float: right;
+}
+
+.connect {
+ margin: 35px 30px 0px 30px;
+
+}
+
+h2 {
+ color: #4aaaa5;
+ text-align: center;
+ font-size: 24px;
+ font-weight: bold;
+ margin-bottom: 20px;
+}
+
+.linkedin {
+ margin-left: 5px;
+ padding: 0px;
+ float: left;
+ margin-left: 47px;
+ margin-bottom: 30px;
+ margin-top: 10px;
+}
+
+.stackoverflow {
+ margin-left: 5px;
+ padding: 0px;
+ float: left;
+ margin-top: 10px;
+}
+
+.github {
+ margin-left: 5px;
+ padding: 0px;
+ float: left;
+ margin-top: 10px;
+}
+
+.body2 {
+ font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+ margin: 30px;
+ color: #777777;
+}
+
+.work {
+ position: relative;
+ float: left;
+ width: 274px;
+ margin: 10px;
+ overflow: auto;
+}
+
+.work img {
+ width: 100%;
+ border: 0 none;
+ opacity: 0.8;
+}
+
+.work h3 {
+ position: absolute;
+ bottom: 20px;
+ width: 100%;
+ padding: 15px;
+ margin-bottom: 0;
+ font-weight: 300;
+ line-height: 30px;
+ color: #fff;
+ text-align: center;
+ background: #4aaaa5;
+ border-bottom: 0;
+ font-family: 'Georgia', Times, Times New Roman, serif;
+ font-size: 20px;
+}
